@@ -67,7 +67,7 @@ public class CarReset : MonoBehaviour
 
 			// Reset the velocity.
 			var vehicleBody = vehicleTransform.gameObject.GetComponent<Rigidbody>();
-			vehicleBody.velocity = Vector3.zero;
+			vehicleBody.linearVelocity = Vector3.zero;
 			vehicleBody.angularVelocity = Vector3.zero;
 		}
 	}
